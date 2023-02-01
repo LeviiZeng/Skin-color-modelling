@@ -1,8 +1,8 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
-df1 = pd.read_excel(r"C:\Users\admin\Desktop\W05\data\skinRGB.xlsx")
-df2 = pd.read_excel(r"C:\Users\admin\Desktop\W05\data\backgroundRGB.xlsx")
+df1 = pd.read_excel(r"skinRGB.xlsx")
+df2 = pd.read_excel(r"backgroundRGB.xlsx")
 
 SR = df1["R"]
 SG = df1["G"]
